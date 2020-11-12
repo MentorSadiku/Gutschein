@@ -1,6 +1,7 @@
 
 import java.sql.*;
 import java.util.Properties;
+import com.vaadin.ui.Notification;
 
 public class JDBC {
 
