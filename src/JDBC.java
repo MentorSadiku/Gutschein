@@ -1,3 +1,4 @@
+
 import java.sql.*;
 import java.util.Properties;
 
@@ -8,6 +9,7 @@ public class JDBC {
     private String passwort = "ckedik22s";
     private String url = "jdbc:postgresql://dumbo.inf.h-brs.de/ckedik2s";
     private Connection conn = null;
+
 
     public static JDBC getInstance() throws DatabaseException {
         if (connection == null) {
