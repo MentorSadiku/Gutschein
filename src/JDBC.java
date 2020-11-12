@@ -4,9 +4,9 @@ import java.util.Properties;
 public class JDBC {
 
     private static JDBC connection = null;
-    private String login = "pwelte2s";
-    private String passwort = "pwelte2s";
-    private String url = "jdbc:postgresql://dumbo.inf.h-brs.de/pwelte2s";
+    private String login = "ckedik2s";
+    private String passwort = "ckedik22s";
+    private String url = "jdbc:postgresql://dumbo.inf.h-brs.de/ckedik2s";
     private Connection conn = null;
 
     public static JDBC getInstance() throws DatabaseException {
@@ -16,7 +16,7 @@ public class JDBC {
         return connection;
     }
 
-    private JDBCConnection() throws DatabaseException {
+    private JDBC() throws DatabaseException {
         this.initConnection();
 
     }
